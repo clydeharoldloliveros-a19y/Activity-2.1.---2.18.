@@ -1,0 +1,47 @@
+public class ArithmeticOperators {
+
+    public static void main(String[] args) {
+
+        // Variable values
+        int i = 37;
+        int j = 42;
+        double x = 27.475;
+        double y = 7.22;
+
+        System.out.println("Variable values...");
+        System.out.println("i = " + i);
+        System.out.println("j = " + j);
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+
+        // Adding
+        System.out.println("\nAdding...");
+        System.out.println("i + j = " + (i + j));
+        System.out.printf("x + y = %.3f%n", (x + y));
+
+        // Subtracting
+        System.out.println("\nSubtracting...");
+        System.out.println("i - j = " + (i - j));
+        System.out.printf("x - y = %.3f%n", (x - y));
+
+        // Multiplying
+        System.out.println("\nMultiplying...");
+        System.out.println("i * j = " + (i * j));
+        System.out.printf("x * y = %.2f%n", (x * y));
+
+        // Dividing
+        System.out.println("\nDividing...");
+        System.out.println("i / j = " + (i / j));
+        System.out.printf("x / y = %.4f%n", (x / y));
+
+        // Computing the remainder
+        System.out.println("\nComputing the remainder...");
+        System.out.println("i % j = " + (i % j));
+        System.out.printf("x %% y = %.3f%n", (x % y));
+
+        // Mixing types
+        System.out.println("\nMixing types...");
+        System.out.printf("j + y = %.2f%n", (j + y));
+        System.out.printf("i * x = %.2f%n", (i * x));
+    }
+}
